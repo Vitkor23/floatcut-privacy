@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - FloatCut</title>
+    <style>
+        :root {
+            --bg-color: #0c0d14;
+            --card-bg: #141622;
+            --text-main: #f1f3f9;
+            --text-muted: #9ba1b6;
+            --accent-gradient: linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%);
+            --border-color: #26293d;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.65;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 48px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 36px;
+            padding-bottom: 28px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .app-title {
+            font-size: 32px;
+            font-weight: 800;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 15px;
+        }
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 18px;
+        }
+        .lang-btn {
+            background: #1f2336;
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            padding: 6px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+        .lang-btn.active {
+            background: #6366f1;
+            border-color: #6366f1;
+            color: #fff;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            color: #c7d2fe;
+        }
+        p, ul {
+            color: var(--text-muted);
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+        ul {
+            padding-left: 24px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: var(--text-main);
+        }
+        .highlight-box {
+            background: rgba(99, 102, 241, 0.08);
+            border-left: 4px solid #6366f1;
+            padding: 16px 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: #64748b;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="app-title">FloatCut</div>
+        <div class="subtitle">3D Motion Video Maker &bull; Package: <code>com.hallel.floatcutapp</code></div>
+        <div class="lang-switch">
+            <button class="lang-btn active" onclick="setLang('en')">English</button>
+            <button class="lang-btn" onclick="setLang('ru')">Русский</button>
+        </div>
+    </div>
+
+    <!-- ENGLISH SECTION -->
+    <div id="content-en">
+        <p><strong>Effective Date:</strong> October 15, 2026</p>
+
+        <div class="highlight-box">
+            <p style="margin: 0; color: #e0e7ff;"><strong>Summary:</strong> FloatCut respects your privacy. All video generation, photo editing, and audio synchronization happen 100% locally on your device. We do not collect, transmit, store, or share your personal data, photos, or videos.</p>
+        </div>
+
+        <h2>1. Information We Do Not Collect</h2>
+        <p>FloatCut does not collect any personally identifiable information (PII). When using the application:</p>
+        <ul>
+            <li>We do not collect names, email addresses, phone numbers, or account credentials.</li>
+            <li>We do not upload or send your photos, videos, or audio files to any server or cloud storage.</li>
+            <li>We do not track your location, GPS data, or browsing activity.</li>
+        </ul>
+
+        <h2>2. On-Device Processing & Permissions</h2>
+        <p>FloatCut operates strictly offline on your device:</p>
+        <ul>
+            <li><strong>Photos and Videos:</strong> Used exclusively to let you select media files for your clips and render your final video montage. The app only accesses files explicitly chosen by you through the Android system picker.</li>
+            <li><strong>Audio and Music:</strong> Used solely to perform local beat detection and add background soundtrack to your video montage.</li>
+            <li><strong>Export & Storage:</strong> The rendered videos are saved locally to your device's <code>Movies/FloatCut</code> directory so you can access them in your gallery.</li>
+        </ul>
+
+        <h2>3. Third-Party Services and Analytics</h2>
+        <p>FloatCut does not include third-party advertising SDKs, tracking frameworks, or analytics services that harvest user data.</p>
+
+        <h2>4. Children's Privacy</h2>
+        <p>FloatCut does not knowingly collect or solicit any personal information from children under the age of 13. The application is completely safe for all audiences as it operates strictly on-device without internet data collection.</p>
+
+        <h2>5. Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy, please contact us at:</p>
+        <p>Email: <strong>support@floatcut.app</strong> (or contact through our official GitHub repository)</p>
+    </div>
+
+    <!-- RUSSIAN SECTION -->
+    <div id="content-ru" style="display: none;">
+        <p><strong>Дата вступления в силу:</strong> 15 октября 2026 г.</p>
+
+        <div class="highlight-box">
+            <p style="margin: 0; color: #e0e7ff;"><strong>Главное:</strong> FloatCut уважает вашу конфиденциальность. Вся обработка видео, анимация и синхронизация музыки происходят исключительно локально на вашем устройстве. Мы не собираем, не передаем и не храним ваши личные данные, фотографии или видео на серверах.</p>
+        </div>
+
+        <h2>1. Данные, которые мы не собираем</h2>
+        <p>Приложение FloatCut не собирает персональную информацию (PII). При использовании приложения:</p>
+        <ul>
+            <li>Мы не запрашиваем и не сохраняем имена, электронную почту или учетные данные.</li>
+            <li>Мы не загружаем ваши фотографии, видео или аудиофайлы на внешние серверы или в облако.</li>
+            <li>Мы не отслеживаем ваше местоположение (GPS) и сетевую активность.</li>
+        </ul>
+
+        <h2>2. Локальная обработка и разрешения</h2>
+        <p>Все функции FloatCut выполняются строго офлайн на вашем устройстве:</p>
+        <ul>
+            <li><strong>Фотографии и видео:</strong> Используются исключительно для того, чтобы вы могли выбрать медиафайлы для монтажа. Приложение получает доступ только к файлам, которые вы сами выбрали через системный проводник Android.</li>
+            <li><strong>Музыка и аудио:</strong> Используется только для поиска музыкального бита на устройстве и наложения звуковой дорожки на готовый ролик.</li>
+            <li><strong>Сохранение:</strong> Готовые видеоролики сохраняются локально в папку <code>Movies/FloatCut</code> на вашем устройстве для доступа из системной галереи.</li>
+        </ul>
+
+        <h2>3. Сторонние сервисы и аналитика</h2>
+        <p>FloatCut не содержит рекламных трекеров, сторонних аналитических библиотек или шпионских модулей.</p>
+
+        <h2>4. Защита конфиденциальности детей</h2>
+        <p>FloatCut не собирает данные детей младше 13 лет. Приложение полностью безопасно для любой аудитории, так как не имеет механизмов сбора персональной информации через сеть.</p>
+
+        <h2>5. Изменения в политике</h2>
+        <p>В случае обновления политики конфиденциальности новая редакция будет опубликована на этой странице с указанием актуальной даты.</p>
+
+        <h2>6. Контакты</h2>
+        <p>Если у вас есть вопросы по политике конфиденциальности, свяжитесь с нами:</p>
+        <p>Электронная почта: <strong>support@floatcut.app</strong> (или через страницу проекта на GitHub)</p>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 FloatCut. All rights reserved.
+    </div>
+</div>
+
+<script>
+    function setLang(lang) {
+        document.getElementById('content-en').style.display = lang === 'en' ? 'block' : 'none';
+        document.getElementById('content-ru').style.display = lang === 'ru' ? 'block' : 'none';
+        var btns = document.querySelectorAll('.lang-btn');
+        btns[0].classList.toggle('active', lang === 'en');
+        btns[1].classList.toggle('active', lang === 'ru');
+    }
+</script>
+
+</body>
+</html>
